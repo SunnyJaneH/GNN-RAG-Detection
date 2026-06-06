@@ -77,6 +77,20 @@ Top-K results (score ≥ 0.65) → LLM Reasoner
 
 ---
 
+## Data Analysis & Visualizations
+
+### CVE Annual Volume (2020–2026)
+![CVE Volume](assets/EDACVE.png)
+
+### Top Vulnerability Types (CWE)
+![CWE Distribution](assets/3-Top5VulnerabilityTypes(CWE).png)
+
+### CVSS Severity Score Distribution
+![Severity Score](assets/CVEscore.png)
+
+### Network Topology
+![Network Topology](assets/network_topology.png)
+
 ## Setup
 
 ### 1. Install dependencies
