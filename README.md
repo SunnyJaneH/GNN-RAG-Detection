@@ -30,6 +30,9 @@ Top-K results (score ≥ 0.65) → LLM Reasoner
 
 ---
 
+## Pipeline Architecture
+![Pipeline Architecture](assets/pipeline_architecture.png)
+
 ## Files
 
 | File | Description |
