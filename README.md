@@ -4,7 +4,7 @@
 > Full project repository: [vedika0806/GNN-RAG-THREAT-DETECTION](https://github.com/vedika0806/GNN-RAG-THREAT-DETECTION)  
 > **My contribution:** CVE data cleaning, preprocessing, data pipeline to Pinecone, and semantic similarity matching to MITRE ATT&CK framework.
 
-This module implements the Retrieval-Augmented Generation (RAG) knowledge base for the GNN-RAG Threat Detection system. It ingests CVE vulnerability data and MITRE ATT&CK techniques into Pinecone vector indexes, enabling semantic similarity-based retrieval during GNN inference.
+![System Overview](assets/system_architecture_overview.png)
 
 ---
 
@@ -30,6 +30,21 @@ Top-K results (score ≥ 0.65) → LLM Reasoner
 
 ---
 
+## Key Results (My RAG Module)
+
+| Metric | Value |
+|---|---|
+| CVE vectors ingested | 17,014 |
+| MITRE ATT&CK techniques | 823 |
+| Retrieval latency | 16.48ms avg |
+| RAG success rate | 59.0% (cosine ≥ 0.65) |
+| Answer relevance (RAGAS) | 0.6305 |
+| Avg CVE severity covered | 8.89 / 10 |
+
+![RAG Results](assets/rag_results.png)
+
+---
+
 ## System Architecture
 
 ### Full System Design (Training · Inference · RAG)
@@ -37,6 +52,9 @@ Top-K results (score ≥ 0.65) → LLM Reasoner
 
 ### RAG Pipeline Detail (My Contribution)
 ![Pipeline Architecture](assets/pipeline_architecture.png)
+
+### Data Pipeline: Bronze → Silver → Gold
+![Data Pipeline](assets/data_pipeline.png)
 
 ## Files
 
