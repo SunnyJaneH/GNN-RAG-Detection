@@ -30,7 +30,12 @@ Top-K results (score ≥ 0.65) → LLM Reasoner
 
 ---
 
-## Pipeline Architecture
+## System Architecture
+
+### Full System Design (Training · Inference · RAG)
+![System Architecture](assets/system_architecture.png)
+
+### RAG Pipeline Detail (My Contribution)
 ![Pipeline Architecture](assets/pipeline_architecture.png)
 
 ## Files
