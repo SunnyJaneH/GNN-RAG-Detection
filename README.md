@@ -1,5 +1,9 @@
 # RAG Pipeline — CVE & MITRE ATT&CK Knowledge Base
 
+> **Team Capstone Project** — SJSU DATA 298A MSDA Project I · Team 3 · May 2026  
+> Full project repository: [vedika0806/GNN-RAG-THREAT-DETECTION](https://github.com/vedika0806/GNN-RAG-THREAT-DETECTION)  
+> **My contribution:** CVE data cleaning, preprocessing, data pipeline to Pinecone, and semantic similarity matching to MITRE ATT&CK framework.
+
 This module implements the Retrieval-Augmented Generation (RAG) knowledge base for the GNN-RAG Threat Detection system. It ingests CVE vulnerability data and MITRE ATT&CK techniques into Pinecone vector indexes, enabling semantic similarity-based retrieval during GNN inference.
 
 ---
@@ -198,4 +202,6 @@ All configurable parameters are at the top of each script:
 
 ## Author
 
-Jane Heng — DATA 298A MSDA Project I · Team 3 · May 2026
+**Jane Heng** — [LinkedIn](https://www.linkedin.com/in/jie-heng-411741293/)  
+Responsible for: CVE data pipeline · Pinecone vector ingestion · MITRE semantic similarity  
+SJSU DATA 298A MSDA Project I · Team 3 · May 2026****
